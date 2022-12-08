@@ -12,20 +12,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 120px;
+  height: 15vh;
   padding-inline: 10vw;
   background: #150046;
   color: rgb(255, 255, 255);
 }
 
-.line{
-height: 61px;
-width: 2px;
-background: rgb(255, 255, 255);
-margin-inline: 100px;
+.line {
+  height: 61px;
+  width: 2px;
+  background: rgb(255, 255, 255);
+  margin-inline: 100px;
 }
 
-.grow-list{
+.grow-list {
   flex: 1;
 }
 .grow-list ul {
@@ -37,11 +37,48 @@ margin-inline: 100px;
   padding-inline-end: 50px;
 }
 
-.button-small{
+.button-small {
   background: #ad47d2;
   color: #fff;
   border: none;
   border-radius: 10px;
   padding-inline: 30px;
   padding-block: 15px;
+}
+
+section[aria-label='hero'] {
+  height: 85vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0deg, #3c055566, #2d007063), url(./assets/bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero {
+  text-align: center;
+  width: 75vw;
+}
+
+.hero h1 {
+  font-size: 7rem;
+  margin-block-end: 2rem;
+  line-height: 1;
+}
+
+.hero p {
+  font-size: 2rem;
+  margin-block-end: 3rem;
+}
+
+.button-large {
+  font-size: 1.5rem;
+  background: #a133c9;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding-inline: 50px;
+  padding-block: 25px;
 }
