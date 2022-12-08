@@ -1,0 +1,47 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  padding-inline: 10vw;
+  background: #150046;
+  color: rgb(255, 255, 255);
+}
+
+.line{
+height: 61px;
+width: 2px;
+background: rgb(255, 255, 255);
+margin-inline: 100px;
+}
+
+.grow-list{
+  flex: 1;
+}
+.grow-list ul {
+  list-style: none;
+  display: flex;
+}
+
+.grow-list ul li {
+  padding-inline-end: 50px;
+}
+
+.button-small{
+  background: #ad47d2;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding-inline: 30px;
+  padding-block: 15px;
+}
