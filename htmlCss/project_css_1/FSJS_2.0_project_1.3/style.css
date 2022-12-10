@@ -110,6 +110,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .hero-container-right h1 {
   font-size: 4.8rem;
 }
@@ -146,6 +147,6 @@
 .hero-container-right h4.contact-heading {
   margin-block-end: 10px;
   font-family: Poppins;
-  color: rgb(156, 156, 156);
+  color: #8b8b8b;
   font-size: 1.1rem;
 }
