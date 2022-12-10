@@ -5,7 +5,6 @@
 }
 
 body{
-    max-width: 1440px;
     background-color: #F0F4F5;
     margin: auto; /* Auto */
     overflow: hidden;
@@ -28,7 +27,7 @@ nav ul li{
     font-weight: 600;
 }
 nav ul li:first-child{
-    color: green;
+    color: rgb(42, 219, 131);
 }
 
 /* Hero Section */
@@ -85,7 +84,7 @@ main section {
 
 .leftsection button{
     color: white;
-    background-color: green;
+    background-color: rgb(36, 198, 117);
     padding: 15px 40px;
     border: none;
     border-radius: 40px;
