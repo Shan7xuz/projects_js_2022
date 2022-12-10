@@ -11,15 +11,15 @@
 }
 
 .container {
-  margin-inline: 120px;
-  margin-block: 60px;
+  margin-inline: 7rem;
+  margin-block: 3rem;
 }
 
 .navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 64px;
+  height: 4rem;
 }
 
 .list {
@@ -44,11 +44,11 @@
   justify-content: space-between;
 }
 
-.search-icon{
+.search-icon {
   margin-inline-end: 30px;
 }
 
-.nav-button{
+.nav-button {
   font-size: 1.5rem;
   font-family: Poppins;
   padding-inline: 50px;
@@ -58,5 +58,94 @@
   background-color: #fff;
 }
 
+.hero-container {
+  position: relative;
+  margin-block-start: 50px;
+  height: 75vh;
+}
 
+.hero-container img[alt='person-hero-iamge'] {
+  height: 640px;
+  width: 527px;
+}
 
+.hero-container img[alt='square-pattern'] {
+  position: absolute;
+  bottom: 0;
+  left: 180px;
+  z-index: -1;
+}
+
+.hero-container img[alt='globe-pattern'] {
+  position: absolute;
+  top: -30px;
+  right: 40%;
+}
+
+.hero-container .star img {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  top: 30px;
+  right: 0;
+}
+
+.hero-container .sta img {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  bottom: 50px;
+  left: 40%;
+}
+
+.hero-container-right {
+  height: 65vh;
+  width: 55vw;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-container-right h1 {
+  font-size: 4.8rem;
+}
+
+.hero-container-right p {
+  font-size: 1.2rem;
+  color: rgb(60, 60, 60);
+  width: 75%;
+  font-family: Poppins;
+}
+
+.hero-container-right .button-email {
+  padding-inline: 2rem;
+  padding-block: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 800;
+  border: 2px solid #8a8a8a;
+  color: #8a8a8a;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.hero-container-right .button-join {
+  padding-inline: 0.5rem;
+  padding-block: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background: #000;
+  color: #fff;
+}
+
+.hero-container-right h4.contact-heading {
+  margin-block-end: 10px;
+  font-family: Poppins;
+  color: rgb(156, 156, 156);
+  font-size: 1.1rem;
+}
